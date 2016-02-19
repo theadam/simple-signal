@@ -9,7 +9,7 @@ const signal = new Signal();
 
 const handler = v => console.log(v);
 
-signal.on(hander);
+signal.on(handler);
 
 // Will log 'Simple!'
 signal.emit('Simple!');
