@@ -1,13 +1,19 @@
 {
   "name": "simple-signal",
-  "version": "0.0.1",
-  "description": "Signals with less features",
+  "version": "0.0.2",
+  "description": "Simply Signals",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/theadam/simple-signal.git"
   },
   "keywords": [
+    "signals",
+    "events",
+    "minimal",
+    "simple",
+    "tiny",
+    "fast"
   ],
   "scripts": {
     "clean": "rimraf lib dist",
@@ -37,6 +43,5 @@
     "rimraf": "^2.4.3",
     "webpack": "^1.11.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }

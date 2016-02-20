@@ -11,7 +11,7 @@ export default function Signal() {
       }
     },
     emit(val) {
-      for (let i = 0; i < subscribers.length; i++) {
+      for (let i = 0, len = subscribers.length; i < len; ++i) {
         subscribers[i](val);
       }
     },
