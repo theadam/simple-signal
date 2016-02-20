@@ -74,7 +74,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      }
 	    },
 	    emit: function emit(val) {
-	      for (var i = 0; i < subscribers.length; i++) {
+	      for (var i = 0, len = subscribers.length; i < len; ++i) {
 	        subscribers[i](val);
 	      }
 	    }
